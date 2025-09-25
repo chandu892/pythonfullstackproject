@@ -21,23 +21,23 @@ Optional Enhancements:Save pet state to a file so it persists.
 
 ## project structure
 
-virtual pet game/
-|
-|---src/            # core application logic
-|    |---logic.py   #Business logic and task
-|    |__db.py       #database operations
-|
-|----api/           #Backend API
-|    |__main.py     #FASTAPI endpoints
-|
-|----frontend/      #frontend application
-|     |__app.py     #streamlit web interface
-|
-|____requirements.txt # python Dependencies
-|
-|____README.md        #project documentation
-|
-|____.env       # python variables
+    virtual pet game/
+    |
+    |---src/            # core application logic
+    |    |---logic.py   #Business logic and task
+    |    |__db.py       #database operations
+    |
+    |----api/           #Backend API
+    |    |__main.py     #FASTAPI endpoints
+    |
+    |----frontend/      #frontend application
+    |     |__app.py     #streamlit web interface
+    |
+    |____requirements.txt # python Dependencies
+    |
+    |____README.md        #project documentation
+    |
+    |____.env       # python variables
 
 ## Quick start
 
